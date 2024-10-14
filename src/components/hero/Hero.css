@@ -1,0 +1,29 @@
+#Title {
+  color: #303030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: 72px;
+  gap: 80px;
+  font-family: Futura;
+}
+#desc {
+  color: #ababab;
+  font-family: Futura;
+  font-size: 24px;
+
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+#image-container {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 21px;
+  margin-top: 60px;
+}

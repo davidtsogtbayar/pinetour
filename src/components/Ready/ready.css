@@ -1,0 +1,90 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f7f7f7; /* Light background for the body */
+}
+
+.ready-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+  padding: 20px;
+  background-color: #222;
+}
+
+/* Are you ready section */
+.ready-content {
+  text-align: center;
+  color: #333; /* Dark text to contrast with the light background */
+}
+
+.ready-text {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.order-btn {
+  background-color: #33cc33;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.order-btn:hover {
+  background-color: #28a428;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  height: 228px;
+}
+
+.footer-left {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-btn {
+  background-color: #333;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.social-btn:hover {
+  background-color: #555;
+}
+.footer-title {
+  width: 81px;
+  height: 68px;
+  gap: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+}
